@@ -597,6 +597,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eve@npm:~0.5.1":
+  version: 0.5.4
+  resolution: "eve@npm:0.5.4"
+  checksum: 10c0/e3144c489d592eac0a810b2044219300cbc92ef93e88dcd76546017c20114cb07d2fb5ba4f47edc51daf2f9adced762074de1e52e58114a878dd127b19637ead
+  languageName: node
+  linkType: hard
+
 "exponential-backoff@npm:^3.1.1":
   version: 3.1.1
   resolution: "exponential-backoff@npm:3.1.1"
@@ -1122,6 +1129,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "senjed-lets-talk@workspace:."
   dependencies:
+    snapsvg: "npm:^0.5.1"
     vite: "npm:^5.2.0"
   languageName: unknown
   linkType: soft
@@ -1153,6 +1161,15 @@ __metadata:
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: 10c0/a16775323e1404dd43fabafe7460be13a471e021637bc7889468eb45ce6a6b207261f454e4e530a19500cc962c4cc5348583520843b363f4193cee5c00e1e539
+  languageName: node
+  linkType: hard
+
+"snapsvg@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "snapsvg@npm:0.5.1"
+  dependencies:
+    eve: "npm:~0.5.1"
+  checksum: 10c0/fbe28a7346f20c3fdb94cb7bdf9731676a22fa23be6cebbd38566b1730fda8992852682e4c5083689a3932226c3d55bfeb7f006465405696533b028935a6ec32
   languageName: node
   linkType: hard
 
